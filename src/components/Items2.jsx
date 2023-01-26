@@ -1,5 +1,6 @@
 import item_7 from "../images/item_7.jpg";
-import item_9 from "../images/item_9.jpg";
+// import item_9 from "../images/item_9.jpg";
+import item_10 from "../images/item_10.jpg";
 import side_bar_image from "../images/side_bar_item_1.jpg";
 export const Items2 = [
   {
@@ -14,7 +15,7 @@ export const Items2 = [
   },
   {
     title: "Shop Essential Items",
-    imgSrc: item_9,
+    imgSrc: item_10,
     content: "",
   },
   {

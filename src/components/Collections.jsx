@@ -3,9 +3,12 @@ function Collections({ title, content, imgSrc }) {
   return (
     <div className="collections">
       <div className="single_item">
-        <span>{title}</span>
+        <span style={{ wordWrap: "break-word" }}>{title}</span>
+        {/* <img src={imgSrc} alt="" style={{ margin: "auto" }} /> */}
         <img src={imgSrc} alt="" />
-        <span>{content}</span>
+        <span style={{ color: "#7caec2", wordWrap: "break-word" }}>
+          {content}
+        </span>
       </div>
     </div>
   );
