@@ -2,9 +2,9 @@ import React from "react";
 import Header from "./Header";
 import "../css/App.css";
 import Banner from "./Banner";
-import Collections from "./Collections";
+import FirstCollections from "./FirstCollections";
+import SecondCollections from "./SecondCollections";
 import { Items as items } from "./Items";
-import { Items2 as items2 } from "./Items2";
 import SpecialOffers from "./SpecialOffers";
 
 function App() {
@@ -13,35 +13,41 @@ function App() {
       <Header />
       <Banner />
       <div className="collections_body">
-        <div className="collections_body_for_items1">
+        <div className="collections_body_for_row1">
           {/* First Batch of Items */}
           {items.map((item, index) => {
             return (
-              <Collections
-                key={index}
-                title={item.title}
-                content={item.content}
-                id={index}
-                imgSrc={item.imgSrc}
-              />
+              index < 6 && (
+                <FirstCollections
+                  key={index}
+                  title={item.title}
+                  content={item.content}
+                  id={index}
+                  imgSrc={item.imgSrc}
+                />
+              )
             );
           })}
-          {/* Second Batch Of Items */}
         </div>
+        {/* Second Batch Of Items */}
         <div className="collections_body_for_items2">
           <SpecialOffers />
-          {items2.map((item, index) => {
-            return (
-              <Collections
-                key={index}
-                title={item.title}
-                content={item.content}
-                id={index}
-                imgSrc={item.imgSrc}
-                className="item"
-              />
-            );
-          })}
+          <div className="second_collections_mapped">
+            {items.map((item, index) => {
+              return (
+                index > 5 && (
+                  <SecondCollections
+                    key={index}
+                    title={item.title}
+                    content={item.content}
+                    id={index}
+                    imgSrc={item.imgSrc}
+                    // className="item"
+                  />
+                )
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

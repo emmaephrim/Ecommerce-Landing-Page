@@ -3,7 +3,7 @@ import item_8 from "../images/item_8.jpeg";
 
 function SpecialOffers() {
   return (
-    <div className="side_bar_item side_item">
+    <div className="side_card">
       <span
         style={{
           backgroundColor: "#d0e7fe",

@@ -1,12 +1,12 @@
 import React from "react";
-function Collections({ title, content, imgSrc }) {
+
+function FirstCollections({ title, content, imgSrc }) {
   return (
-    <div className="collections">
-      <div className="single_item">
+    <div className="First_collections">
+      <div className="first_collection_card">
         <span style={{ wordWrap: "break-word", fontWeight: "bold" }}>
           {title}
         </span>
-        {/* <img src={imgSrc} alt="" style={{ margin: "auto" }} /> */}
         <img src={imgSrc} alt="" />
         <span style={{ color: "#7caec2", wordWrap: "break-word" }}>
           {content}
@@ -16,4 +16,4 @@ function Collections({ title, content, imgSrc }) {
   );
 }
 
-export default Collections;
+export default FirstCollections;
