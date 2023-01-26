@@ -5,6 +5,11 @@ import item_4 from "../images/item_4.jpg";
 import item_5 from "../images/item_5.jpg";
 import item_6 from "../images/item_6.jpg";
 
+// import item_7 from "../images/item_7.jpg";
+// // import item_9 from "../images/item_9.jpg";
+// import item_10 from "../images/item_10.jpg";
+// import side_bar_image from "../images/side_bar_item_1.jpg";
+
 export const Items = [
   { title: "Shirts", imgSrc: item_1, content: "Shop Now" },
   {
@@ -32,4 +37,25 @@ export const Items = [
     imgSrc: item_6,
     content: "Shop Now",
   },
+
+  // {
+  //   title: "Shop valentines Day Items",
+  //   imgSrc: item_7,
+  //   content: "",
+  // },
+  // {
+  //   title: "Shop valentines Day Items",
+  //   imgSrc: item_7,
+  //   content: "",
+  // },
+  // {
+  //   title: "Shop Essential Items",
+  //   imgSrc: item_10,
+  //   content: "",
+  // },
+  // {
+  //   title: "Shop Items Under GHC100",
+  //   imgSrc: side_bar_image,
+  //   content: "",
+  // },
 ];

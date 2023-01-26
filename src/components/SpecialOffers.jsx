@@ -12,6 +12,7 @@ function SpecialOffers() {
           fontWeight: "bolder",
           width: "200px",
           textAlign: "center",
+          alignItems: "start",
         }}
       >
         SPECIAL OFFERS

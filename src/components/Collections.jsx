@@ -3,7 +3,9 @@ function Collections({ title, content, imgSrc }) {
   return (
     <div className="collections">
       <div className="single_item">
-        <span style={{ wordWrap: "break-word" }}>{title}</span>
+        <span style={{ wordWrap: "break-word", fontWeight: "bold" }}>
+          {title}
+        </span>
         {/* <img src={imgSrc} alt="" style={{ margin: "auto" }} /> */}
         <img src={imgSrc} alt="" />
         <span style={{ color: "#7caec2", wordWrap: "break-word" }}>
