@@ -1,12 +1,10 @@
 import React from "react";
 import Header from "./Header";
-// import logo from './logo.svg';
 import "../css/App.css";
 import Banner from "./Banner";
 import Collections from "./Collections";
 import { Items as items } from "./Items";
 import { Items2 as items2 } from "./Items2";
-import item_8 from "../images/item_8.jpeg";
 import SpecialOffers from "./SpecialOffers";
 
 function App() {
@@ -31,12 +29,6 @@ function App() {
           {/* Second Batch Of Items */}
         </div>
         <div className="collections_body_for_items2">
-          {/* <img
-            className="side_bar_item side_item"
-            src={item_8}
-            alt=""
-            srcset=""
-          /> */}
           <SpecialOffers />
           {items2.map((item, index) => {
             return (
