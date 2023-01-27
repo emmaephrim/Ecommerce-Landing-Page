@@ -5,7 +5,7 @@ import item_4 from "../images/item_4.jpg";
 import item_5 from "../images/item_5.jpg";
 import item_6 from "../images/item_6.jpg";
 import item_7 from "../images/item_7.jpg";
-import item_10 from "../images/item_10.jpg";
+import item_10 from "../images/item_10.jpeg";
 import side_bar_image from "../images/side_bar_item_1.jpg";
 
 export const Items = [
@@ -60,7 +60,7 @@ export const Items = [
   },
   {
     id: 9,
-    title: "Shop Items Under GHC100",
+    title: "Shop essential items",
     imgSrc: item_10,
     content: "",
   },

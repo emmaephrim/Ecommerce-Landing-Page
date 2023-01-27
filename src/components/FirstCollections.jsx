@@ -4,7 +4,13 @@ function FirstCollections({ title, content, imgSrc }) {
   return (
     <div className="First_collections">
       <div className="first_collection_card">
-        <span style={{ wordWrap: "break-word", fontWeight: "bold" }}>
+        <span
+          style={{
+            wordWrap: "break-word",
+            fontWeight: "bold",
+            textAlign: "center",
+          }}
+        >
           {title}
         </span>
         <img src={imgSrc} alt="" />
