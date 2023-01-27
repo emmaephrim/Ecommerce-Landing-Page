@@ -3,7 +3,11 @@ function SecondCollections({ title, content, imgSrc }) {
   return (
     // <div className="second_collections">
     <div className="second_collection_card">
-      <span style={{ wordWrap: "break-word", padding: "5px" }}>{title}</span>
+      <span
+        style={{ wordWrap: "break-word", padding: "5px", textAlign: "center" }}
+      >
+        {title}
+      </span>
       <img src={imgSrc} alt="" />
       <span style={{ color: "#7caec2", wordWrap: "break-word" }}>
         {content}
