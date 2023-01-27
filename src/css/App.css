@@ -123,6 +123,7 @@ input[type="search"]::placeholder {
   /* padding: 10px; */
   padding-top: 25px;
   display: flex;
+  gap: 34px;
 /* align-items: stretch; */
 /* flex-wrap: wrap; */
 /* position: relative; */
@@ -145,7 +146,7 @@ input[type="search"]::placeholder {
   flex-direction: column;
   /* margin-top: -20px; */
   height: 450px;
-  width: 300px;
+  width: 450px;
 }
 .side_card img {
   width: 100%;
@@ -157,17 +158,19 @@ input[type="search"]::placeholder {
   font-weight: bolder;
 }
 .second_collections_mapped{
-display: flex;
+/* display: flex;
 flex-wrap: wrap;
-gap: 12px;
-justify-content: center;
-margin-right: auto;
-margin-left: auto;
-padding-left: 10px;
-/* display: grid; */
+gap: 23px;
+row-gap: 5ch;
+flex-grow: 1; */
+/* justify-content: center; */
+/* margin-right: auto; */
+/* margin-left: auto; */
+width: 100%;
+display: grid;
 /* grid-template-columns: auto auto auto auto ; */
-/* grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); */
-/* gap: 10px; */
+grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+gap: 20px;
 }
 .second_collecions{
   /* background-color:  pink; */
@@ -181,12 +184,15 @@ padding-left: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   word-wrap: break-word;
   /* align-items: stretch; */
-  width: 220px;
-  height: 200px;
+  /* width: 220px; */
+  height: 240px;
+  position: relative;
 }
 .second_collection_card img {
   width: 100%;
   height: 180px;
   object-fit: cover;
   border-radius: 3px;
+  position: absolute;
+  bottom: 0;
 }
