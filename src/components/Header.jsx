@@ -33,10 +33,11 @@ function Header() {
           </ul>
         </div>
       </header>
-      <div>
+
+      {/* <div className="d-flex justify-content-between">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <a className="navbar-brand" href="#">
-            <img src={shop_Logo} alt="" />
+            <img src={shop_Logo} alt="" style={{ width: "100px" }} />
           </a>
           <div className="container-fluid">
             <button
@@ -51,9 +52,6 @@ function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a className="navbar-brand" href="#">
-                {/* <img src={shop_Logo} alt="" /> */}
-              </a>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="#">
@@ -71,31 +69,31 @@ function Header() {
                   </a>
                 </li>
               </ul>
-              <form className="d-flex" role="search">
-                <input
-                  className="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button className="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
             </div>
           </div>
-          <div>
-            <ul>
-              <li style={{}}>
-                <i className="bi bi-cart2"></i>
-              </li>
-              <li style={{}}>
-                <i className="bi bi-person"></i>
-              </li>
-            </ul>
-          </div>
         </nav>
-      </div>
+        <div className="d-flex">
+          <form className="d-flex" role="search">
+            <input
+              className="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button className="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <ul className="d-flex">
+            <li style={{}}>
+              <i className="bi bi-cart2"></i>
+            </li>
+            <li style={{}}>
+              <i className="bi bi-person"></i>
+            </li>
+          </ul>
+        </div>
+      </div> */}
     </React.Fragment>
   );
 }
