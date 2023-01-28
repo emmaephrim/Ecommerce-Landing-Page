@@ -1,3 +1,4 @@
+import { auto } from "@popperjs/core";
 import React from "react";
 
 function FirstCollections({ title, content, imgSrc }) {
@@ -8,7 +9,8 @@ function FirstCollections({ title, content, imgSrc }) {
           style={{
             wordWrap: "break-word",
             fontWeight: "bold",
-            textAlign: "center",
+            // textAlign: "center",
+            paddingBottom: "15px",
           }}
         >
           {title}

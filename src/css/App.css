@@ -101,7 +101,7 @@ input[type="search"]::placeholder {
   border-radius: 3px;
 }
 .first_collection_card {
-  padding-top: 15px;
+  padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
   display: flex;
