@@ -20,19 +20,82 @@ function Header() {
           <form>
             <input type="search" placeholder="Search..." name="search" />
             <button type="submit" className="btn btn-outline">
-              <i class="bi bi-search"></i>
+              <i className="bi bi-search"></i>
             </button>
           </form>
           <ul>
             <li style={{ marginLeft: "-10px" }}>
-              <i class="bi bi-cart2"></i>
+              <i className="bi bi-cart2"></i>
             </li>
             <li style={{ marginLeft: "20px", marginRight: "5px" }}>
-              <i class="bi bi-person"></i>
+              <i className="bi bi-person"></i>
             </li>
           </ul>
         </div>
       </header>
+      <div>
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+          <a className="navbar-brand" href="#">
+            <img src={shop_Logo} alt="" />
+          </a>
+          <div className="container-fluid">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a className="navbar-brand" href="#">
+                {/* <img src={shop_Logo} alt="" /> */}
+              </a>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    Men
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    Women
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    Vendor
+                  </a>
+                </li>
+              </ul>
+              <form className="d-flex" role="search">
+                <input
+                  className="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button className="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+          <div>
+            <ul>
+              <li style={{}}>
+                <i className="bi bi-cart2"></i>
+              </li>
+              <li style={{}}>
+                <i className="bi bi-person"></i>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </React.Fragment>
   );
 }

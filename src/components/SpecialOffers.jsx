@@ -1,5 +1,5 @@
 import React from "react";
-import item_8 from "../images/item_8.jpeg";
+import special_item from "../images/special_item.png";
 
 function SpecialOffers() {
   return (
@@ -20,7 +20,7 @@ function SpecialOffers() {
       <span>BLACK GREY PASUA</span>
       <span>DRESS</span>
       <span style={{ color: "#4086d9" }}>GHC 250</span>
-      <img src={item_8} alt="" srcset="" />
+      <img src={special_item} alt="" srcset="" />
     </div>
   );
 }
