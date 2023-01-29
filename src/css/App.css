@@ -125,8 +125,6 @@ input[type="search"]::placeholder {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   flex-direction: column;
-  /* height: 450px; */
-  /* width: 450px; */
   height: auto;
 }
 .side_card img {
@@ -164,10 +162,25 @@ gap: 20px;
 }
 
 @media screen and (max-width: 576px) {
+  /* Items Body */
+  .collections_body {
+    padding: 8px;
+  }
   /* First Row Responsive */
   .collections_body_for_row1{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: -0px;
   }
+  .first_collection_card {
+    width: 90%;
+    height: 160px;
+    font-size: 12px;
+  }
+  .first_collection_card img {
+    width: 100%;
+    height: 100px;
+  }
+
   /* Second Row Responsive */
   .collections_body_for_items2{
     flex-direction: column;
@@ -181,8 +194,19 @@ gap: 20px;
     width: auto;
   }
   .second_collections_mapped{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-row-gap: 12px;
+    grid-column-gap: 0px;
+  }
+  .second_collection_card {
+    width: 90%;
+    height: 140px;
+    font-size: 12px;
+  }
+  .second_collection_card img {
+    width: 100%;
+    height: 100px;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -242,7 +266,7 @@ gap: 20px;
       margin: 0;
     }
   }
-       @media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
           .second_collections_mapped{
             /* grid-template-columns: repeat(6, minmax(0, 1fr)); */
             } 

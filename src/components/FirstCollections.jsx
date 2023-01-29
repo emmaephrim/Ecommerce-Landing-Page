@@ -10,7 +10,7 @@ function FirstCollections({ title, content, imgSrc }) {
             wordWrap: "break-word",
             fontWeight: "bold",
             // textAlign: "center",
-            paddingBottom: "15px",
+            paddingBottom: "10px",
           }}
         >
           {title}

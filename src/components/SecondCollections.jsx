@@ -6,7 +6,7 @@ function SecondCollections({ title, content, imgSrc }) {
       <span
         style={{
           wordWrap: "break-word",
-          marginTop: "10px",
+          // marginTop: "10px",
           textAlign: "center",
         }}
       >
