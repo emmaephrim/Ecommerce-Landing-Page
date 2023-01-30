@@ -20,7 +20,7 @@ function SpecialOffers() {
       <span>BLACK GREY PASUA</span>
       <span>DRESS</span>
       <span style={{ color: "#4086d9" }}>GHC 250</span>
-      <img src={special_item} alt="" srcset="" />
+      <img src={special_item} alt="" />
     </div>
   );
 }

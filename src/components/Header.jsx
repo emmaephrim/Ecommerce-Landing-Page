@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import shop_Logo from "../images/Plenuu_logo_main.png";
 
 function Header() {
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+  const [mobile, setMobile] = useState(false);
+
+  function myFunction(event) {
+    // var x = document.getElementById("myTopnav");
+    // const class_name = event.target.className;
+    // if (class_name === "topnav") {
+    //   class_name += " responsive";
+    // } else {
+    //   x.className = "topnav";
+    // }
+    setMobile(!mobile);
   }
   return (
     <React.Fragment>
@@ -43,14 +47,29 @@ function Header() {
       </header> */}
 
       <div className="nav">
-        <div className="topnav" id="myTopnav">
+        <div
+          className={mobile ? "topnav responsive" : "topnav"}
+          id="myTopnav"
+          style={{
+            display: mobile && "flex",
+            flexDirection: mobile && "column",
+            alignItems: mobile && "flex-start",
+            height: mobile && "100vh",
+            width: mobile && "50%",
+            paddingLeft: mobile && "5px",
+          }}
+        >
           <a
-            href="javascript:void(0);"
+            href="#"
             className="icon"
             onClick={myFunction}
             style={{ color: "black", fontSize: "30px" }}
           >
-            <i className="fa fa-bars bi bi-list"></i>
+            {mobile ? (
+              <i class="bi bi-x-lg"></i>
+            ) : (
+              <i className="fa fa-bars bi bi-list"></i>
+            )}
           </a>
           <a href="logo" className="logo  active">
             <img
@@ -63,7 +82,10 @@ function Header() {
           <a href="#women">Women</a>
           <a href="#vendor">Vendor</a>
         </div>
-        <div className="sub-head-two">
+        <div
+          className="sub-head-two"
+          // style={{ display: mobile ? "none" : "flex" }}
+        >
           <span className="search_icon">
             <i className="bi bi-search"></i>
           </span>

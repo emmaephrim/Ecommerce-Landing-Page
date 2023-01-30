@@ -58,13 +58,19 @@ height: 80px;
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
-    display: block;
+    /* flex-direction: column; */
+
   }
   .topnav.responsive{
     position: absolute;
     height: 100vh;
     width: 50%;
     padding-top: 3px;
+    /* display: block; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+
     /* background-color: pink; */
   }
   .topnav.responsive a{
@@ -75,18 +81,21 @@ height: 80px;
   .topnav.responsive .logo  {
     display: none;
   }
+
 }
 .sub-head-two .search_icon {
   display: none;
 }
 .sub-head-two{
   display: flex;
-  align-items: center;
   margin-left: auto;
+  margin-bottom: auto;
+  margin-top: 17px;
+  align-items: center;
 }
 .sub-head-two ul{
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   margin: auto;
   gap: 20px;
 }
