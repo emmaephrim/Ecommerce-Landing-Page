@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import shop_Logo from "../images/Plenuu_logo_main.png";
 
-function Header() {
-  const [mobile, setMobile] = useState(false);
-
+function Header({ mobile, setMobile }) {
   function myFunction(event) {
     // var x = document.getElementById("myTopnav");
     // const class_name = event.target.className;
@@ -57,6 +55,8 @@ function Header() {
             height: mobile && "100vh",
             width: mobile && "50%",
             paddingLeft: mobile && "5px",
+            transition: mobile && "all 0.8s ease-in",
+            position: mobile && "absolute",
           }}
         >
           <a

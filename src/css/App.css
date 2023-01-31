@@ -15,7 +15,6 @@ height: 80px;
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #d0e7fe;
-  /* overflow: hidden; */
   display: flex;
   align-items: center;
 }
@@ -62,7 +61,7 @@ height: 80px;
 
   }
   .topnav.responsive{
-    position: absolute;
+    /* position: absolute; */
     height: 100vh;
     width: 50%;
     padding-top: 3px;

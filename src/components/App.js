@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import Header from "./Header";
 import "../css/App.css";
 import Banner from "./Banner";
@@ -8,9 +8,13 @@ import { Items as items } from "./Items";
 import SpecialOffers from "./SpecialOffers";
 
 function App() {
+  const [mobile, setMobile] = useState(false);
   return (
-    <div className="">
-      <Header />
+    <div
+      className=""
+      style={{ overflow: mobile && "hidden", height: mobile && "100vh" }}
+    >
+      <Header mobile={mobile} setMobile={setMobile} />
       <Banner />
       <div className="collections_body">
         <div className="collections_body_for_row1">
