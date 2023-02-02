@@ -202,18 +202,18 @@ input[type="search"]::placeholder {
   height: auto;
   font-size: 13px;
 }
-/* .side_card .special_item_title {
-  background-color: "#d0e7fe";
-          padding-top: "10px";
-          padding-left: "5px";
-          padding-right: "-19px";
-          padding-bottom: "10px";
-          border-radius: "15px";
-          font-weight: "bolder";
-          font-size: "140%";
-          width: "170px";
-          text-align: "center";
-} */
+
+.special_offer_title {
+  background-color: #d0e7fe;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  /* font-weight: bolder; */
+  font-size: 18px;
+  /* text-align: center; */
+}
 
 .side_card img {
   width: 100%;
@@ -224,7 +224,7 @@ input[type="search"]::placeholder {
 .side_card span{
   /* font-weight: 501; */
   font-weight: bolder;
-  padding-left: 30px;
+  padding-left: 26px;
 }
 .second_collections_mapped{
 width: 100%;
@@ -279,9 +279,10 @@ gap: 20px;
     height: auto;
     width: auto;
   }
-  .side_card div {
-    font-size: 10px;
-  }
+  /* .special_offer_title{
+    width: 30vw;
+    margin: 0;
+  } */
   .side_card img {
     height: auto;
     width: auto;
