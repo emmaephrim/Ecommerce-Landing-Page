@@ -7,7 +7,7 @@ function SecondCollections({ title, content, imgSrc }) {
         style={{
           wordWrap: "break-word",
           // marginTop: "10px",
-          textAlign: "center",
+          margin: "4px",
         }}
       >
         {title}

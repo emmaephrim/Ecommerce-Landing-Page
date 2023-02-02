@@ -192,13 +192,29 @@ input[type="search"]::placeholder {
 }
 
 .side_card{
-  padding: 20px;
+  padding-top: 35px;
+  padding-right: 20px;
+  padding-left: 2px;
   background-color: #efefef;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   flex-direction: column;
   height: auto;
+  font-size: 13px;
 }
+/* .side_card .special_item_title {
+  background-color: "#d0e7fe";
+          padding-top: "10px";
+          padding-left: "5px";
+          padding-right: "-19px";
+          padding-bottom: "10px";
+          border-radius: "15px";
+          font-weight: "bolder";
+          font-size: "140%";
+          width: "170px";
+          text-align: "center";
+} */
+
 .side_card img {
   width: 100%;
   object-fit: cover;
@@ -206,7 +222,8 @@ input[type="search"]::placeholder {
 }
 
 .side_card span{
-  font-weight: bolder;
+  font-weight: 501;
+  padding-left: 30px;
 }
 .second_collections_mapped{
 width: 100%;
@@ -221,7 +238,7 @@ gap: 20px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   word-wrap: break-word;
-  height: 240px;
+  height: 230px;
   position: relative;
 }
 .second_collection_card img {
@@ -260,6 +277,9 @@ gap: 20px;
   .side_card{
     height: auto;
     width: auto;
+  }
+  .side_card div {
+    font-size: 10px;
   }
   .side_card img {
     height: auto;

@@ -55,7 +55,7 @@ function Header({ mobile, setMobile }) {
             height: mobile && "100vh",
             width: mobile && "50%",
             paddingLeft: mobile && "5px",
-            transition: mobile && "all 0.8s ease-in",
+            // transition: mobile && "all 0.8s ease-in",
             position: mobile && "absolute",
           }}
         >
