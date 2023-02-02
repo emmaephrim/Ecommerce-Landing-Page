@@ -205,6 +205,7 @@ input[type="search"]::placeholder {
 
 .special_offer_title {
   background-color: #d0e7fe;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
