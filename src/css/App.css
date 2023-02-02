@@ -222,7 +222,8 @@ input[type="search"]::placeholder {
 }
 
 .side_card span{
-  font-weight: 501;
+  /* font-weight: 501; */
+  font-weight: bolder;
   padding-left: 30px;
 }
 .second_collections_mapped{
