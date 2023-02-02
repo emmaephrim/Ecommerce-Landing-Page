@@ -9,7 +9,6 @@ function FirstCollections({ title, content, imgSrc }) {
           style={{
             wordWrap: "break-word",
             fontWeight: "bold",
-            // textAlign: "center",
             paddingBottom: "10px",
           }}
         >

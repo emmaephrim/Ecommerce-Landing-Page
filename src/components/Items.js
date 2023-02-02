@@ -1,7 +1,7 @@
 import item_0 from "../images/item_0.jpg";
 import item_1 from "../images/item_1.jpg";
-import item_2 from "../images/item_2.jpg";
-import item_3 from "../images/item_3.jpeg";
+import item_2 from "../images/item_2.jpeg";
+import item_3 from "../images/item_3.jpg";
 import item_4 from "../images/item_4.jpg";
 import item_5 from "../images/item_5.jpg";
 import item_6 from "../images/item_6.jpg";
@@ -22,38 +22,38 @@ export const Items = [
   },
   {
     id: 1,
-    title: "Shirts",
+    title: "Footwear",
     imgSrc: item_1,
     content: "Shop Now",
   },
   {
     id: 2,
-    title: "Footwear",
+    title: "Bags",
     imgSrc: item_2,
     content: "Shop Now",
   },
   {
     id: 3,
-    title: "Bags",
+    title: "Jewelry",
     imgSrc: item_3,
     content: "Shop Now",
   },
   {
     id: 4,
-    title: "Jeweller",
+    title: "Dresses",
     imgSrc: item_4,
     content: "Shop Now",
   },
   {
     id: 5,
-    title: "Dresses",
+    title: "Sports Wear",
     imgSrc: item_5,
     content: "Shop Now",
   },
   {
     id: 6,
-    title: "Sports Wear",
-    imgSrc: item_6,
+    title: "Shop valentines Day Items",
+    imgSrc: item_7,
     content: "",
   },
 
@@ -65,19 +65,19 @@ export const Items = [
   },
   {
     id: 8,
-    title: "Shop valentines Day Items",
-    imgSrc: item_7,
+    title: "Shop essential items",
+    imgSrc: item_8,
     content: "",
   },
   {
     id: 9,
-    title: "Shop essential items",
+    title: "Shop Items Under GHC100",
     imgSrc: item_9,
     content: "",
   },
   {
     id: 10,
-    title: "Shop Items Under GHC100",
+    title: "Shop Items With Massive Discount",
     imgSrc: item_10,
     content: "",
   },
